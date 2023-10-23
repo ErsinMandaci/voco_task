@@ -1,0 +1,46 @@
+name: voco_task
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  ## core
+  freezed: ^2.4.5
+  equatable: ^2.0.5
+
+  ## state management
+  riverpod: ^2.4.4
+  flutter_riverpod: ^2.4.4
+
+  ## database
+  shared_preferences: ^2.2.2
+
+  ## network
+  dio: ^5.3.3
+  freezed_annotation: ^2.4.1
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  very_good_analysis: ^5.1.0
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
